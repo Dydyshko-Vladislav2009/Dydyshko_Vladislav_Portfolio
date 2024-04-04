@@ -1,0 +1,119 @@
+body{
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	background-color: #343536;
+}
+
+/*header*/
+header{
+	display: flex;
+	align-items: center;
+}
+h1, h2 {
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+.Maininformation{
+	display: flex;
+	align-items: center;
+	margin: 0 auto; 
+}
+.Mainphoto{
+	padding-left: 170px;
+	padding-top: 20px;
+}
+
+/*Boxes*/
+.container{
+	width: 1350px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+/*Мелкие боксы*/
+.smallbox{
+	display: inline-block;
+	border: 3px solid black;
+	padding: 20px 50px;
+}
+.Aboutme{
+	color: red;
+}
+.Myhobbies{
+	color: blue;
+}
+.Mytravels{
+	color: green;
+}
+.Myachievements{
+	color: purple;
+}
+.Myworksandprojects{
+	color: orange;
+}
+.Mycontacts{
+	color: yellow;
+}
+.return{
+	color: turquoise;
+	text-align: center;
+	text-decoration: underline;
+}
+
+/*Тексты*/
+.bigtext{
+	color: white;
+	font-size: 30px;
+	margin-left: auto;
+	border: 3px solid black;
+	padding: 15px;
+	padding-left: 35px;
+	border-radius: 40px 40px;
+	line-height: 45px;
+}
+
+.tel{
+	color: white;
+	text-decoration: none;
+}
+
+/*My contacts elements*/
+.Mycontactselem{
+	display: flex;
+	align-items: center;
+	gap: 43px;
+}
+.X{
+	color: #9E9E9E;
+	font-size: 70px;
+}
+
+/*Рисунки*/
+.gphoto{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.photo:nth-child(even) {
+  margin-top: 0px;
+}
+.photo:nth-child(odd) {
+  margin-bottom: 500px;
+}
+
+/*My works and projects photos*/
+.u img{
+	height: 180px;
+	width: 275px;
+}
+
+/*My achievements photos*/
+.y img{
+	 height: 250px; 
+	 width: 210px;
+}

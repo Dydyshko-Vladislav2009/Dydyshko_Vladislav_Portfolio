@@ -1,2 +1,2 @@
-# Dydyshko_Vladislav_Project
- The portfolio of Dydyshko Vladislav
+# HTML-PROJECT_DYDYSHKO
+ This is portfolio of Vladislav Dydyshko
