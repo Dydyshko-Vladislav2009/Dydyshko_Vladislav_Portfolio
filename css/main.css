@@ -8,8 +8,10 @@ body{
 
 /*header*/
 header{
+	font-size: 40px;
 	display: flex;
 	align-items: center;
+	font-family:"Aerox", "Times New Roman", "sans-serif";
 }
 h1, h2 {
 	color: white;
